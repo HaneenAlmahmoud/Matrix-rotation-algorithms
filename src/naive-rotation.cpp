@@ -60,7 +60,7 @@ int main() {
     }
 
     int a[MAX][MAX];
-    cout << "Enter " << n * n << " elements row-wise:\n";
+    cout << "Enter " << n * n << " elements :\n";
     for (int i = 0; i < n; i++)
         for (int j = 0; j < n; j++)
             cin >> a[i][j];
@@ -75,3 +75,4 @@ int main() {
 
     return 0;
 }
+
